@@ -136,15 +136,28 @@ a:active {
 .orange_aneo{
     color:#EE7003!important;
 }
+.petit{
+  height:70px !important;
+  width:70px !important;
+  margin-top:15px !important;
+}
+.moyen{
+  height:80px!important;
+  width:80px!important;
+  margin-top:10px!important;
 
+}
+.grand{
+  height:90px!important;
+  width:90px!important;
+  margin-top:5px!important;
+}
 .circle_button{
     line-height: 200px;
     font-size:18px;
 
     background:#EC9306!important;
     color:white;
-    width: 150px;
-    height: 150px;
     border-radius: 50%;
     text-align: center;
     display:inline-block;
@@ -179,6 +192,8 @@ a:active {
     margin: 0;
     position:relative;
     list-style: none;
+    width: 100%!important;
+    height:100px;
 
     display: -webkit-box;
     display: -moz-box;

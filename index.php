@@ -128,12 +128,12 @@
     </div>
     <br/><br/><br/>
     <div class="row text-center">
-        <div class="flex-container">
-            <div class="flex-item"><div id="centrerond" class="circle_button"></div></div>
-            <div class="flex-item"><img class="turn-arround-left" src="img/elements/BARRE_CONTOUR_CERCLE.png"/></div>
-            <div class="flex-item"><img class="turn-arround" src="img/elements/BARRE_GRANDE_CONTOUR_CERCLE.png"/></div>
+        <div class="flex-container grand">
+            <div id="centrerond" class="circle_button flex-item petit"></div>
+            <img class="turn-arround-left flex-item moyen" src="img/elements/BARRE_CONTOUR_CERCLE.png"/>
+            <img class="turn-arround flex-item grand" src="img/elements/BARRE_GRANDE_CONTOUR_CERCLE.png"/>
+            <a class="chubby flex-item petit" style="margin-top:25px!important;"><p>Pour <br/> participer</p></a>
         </div>
-        <a class="chubby"><h4>Pour <br/> participer</h4></a>
     </div>
     <div class="row">
         <div class="col-md-12 text-center">
