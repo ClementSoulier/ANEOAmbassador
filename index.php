@@ -132,7 +132,7 @@
             <div id="centrerond" class="circle_button flex-item petit"></div>
             <img class="turn-arround-left flex-item moyen" src="img/elements/BARRE_CONTOUR_CERCLE.png"/>
             <img class="turn-arround flex-item grand" src="img/elements/BARRE_GRANDE_CONTOUR_CERCLE.png"/>
-            <a class="chubby flex-item petit" style="margin-top:25px!important;"><p>Pour <br/> participer</p></a>
+            <a class="chubby flex-item petit" style="margin-top:53px!important;"><h5><p>Pour <br/> participer</p></h5></a>
         </div>
     </div>
     <div class="row">

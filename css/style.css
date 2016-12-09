@@ -137,19 +137,19 @@ a:active {
     color:#EE7003!important;
 }
 .petit{
-  height:70px !important;
-  width:70px !important;
-  margin-top:15px !important;
+  height:120px !important;
+  width:120px !important;
+  margin-top:25px; !important;
 }
 .moyen{
-  height:80px!important;
-  width:80px!important;
+  height:150px!important;
+  width:150px!important;
   margin-top:10px!important;
 
 }
 .grand{
-  height:90px!important;
-  width:90px!important;
+  height:160px!important;
+  width:160px!important;
   margin-top:5px!important;
 }
 .circle_button{
@@ -193,7 +193,7 @@ a:active {
     position:relative;
     list-style: none;
     width: 100%!important;
-    height:100px;
+    height:160px;
 
     display: -webkit-box;
     display: -moz-box;
