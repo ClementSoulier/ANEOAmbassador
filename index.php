@@ -149,7 +149,8 @@
         </div>
     </div>
     <br/><br/><br/>
-    <div class="row text-center">
+    <div  class="row box">
+    <div id="stay-in-place" class="row text-center">
         <div style="height: 250px;" class="col-md-4 col-md-offset-2 darkgrey_background">
             <div>
                 <h3 class="chubby">Contacts</h3>
@@ -166,11 +167,13 @@
             <a href="http://fr.viadeo.com/fr/company/aneo" target="_blank"><img class="icone" src="img/elements/VIADEO.png"/></a>
         </div>
     </div>
-    <div class="row">
+    <div id="move-in-to-place" class="row">
         <div class="col-md-8 col-md-offset-2">
-            <iframe src="https://www.google.com/maps/d/embed?mid=1Ag3eJmQfO6zShBjIH_3uJHPe6w0" style="padding:0px!important;" width="100%" height="500"></iframe>
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1jBc9B1mOL_YvPgEwpm4SD0dkKhk" style="padding:0px!important;" width="100%" height="500"></iframe>
         </div>
+
     </div>
+  </div>
     <br/><br/><br/><br/><br/><br/>
     <div class="row">
         <div class="col-md-2 col-md-offset-5 text-center">

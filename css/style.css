@@ -185,6 +185,36 @@ a:active {
 
 .icone {
     margin: 5px;
+    height: 20px;
+}
+
+#stay-in-place {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+#move-in-to-place {
+  position: absolute;
+  top : 0;
+  bottom: 100%;
+  height : 100%;
+  width : 100%;
+  padding: 0;
+  z-index:-1;
+}
+.box {
+  position: relative;
+  height:750px;
+  overflow:hidden;
+}
+.box:hover #move-in-to-place {
+  -webkit-transition : top 1s;
+  transition: top 1s;
+  z-index:50;
+  top: 250px;
+  padding:0;
+  width:100%;
+  height:100%;
 }
 
 .flex-container {
