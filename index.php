@@ -96,7 +96,7 @@
     <div class="margin_top">
         <div class="row text-center">
             <!-- Programme Row -->
-            <div style="height: 550px;" id="programme_colleft" class="col-md-4 col-md-offset-2">
+            <div style="height: 550px;background-color:grey;" id="programme_colleft" class="col-md-4 col-md-offset-2">
                 <div class="arrow_box">
                     <h4 class="chubby">Ambassador, c'est quoi ?</h4>
                     <h5 class="din margin_top">Tout au long de l'année tu auras pour mission de développer la marque
@@ -108,7 +108,7 @@
                     <h5 class="din margin_top">Tous les étudiants motivés dans une association étudiante.</h5>
                 </div>
             </div>
-            <div style="height: 550px;" id="programme_colright" class="col-md-4">
+            <div style="height: 550px;background-color:lightgrey;" id="programme_colright" class="col-md-4">
                 <h4 class="chubby">Tu auras droit a quelques privileges</h4>
                 <h5 class="din margin_top">L'opportunité de participer à un séminaire d'intégration pour les ambassadeurs
                     2017.</h5>
@@ -186,6 +186,11 @@
 </div>
 </body>
 </html>
+<script>
+$("#stay-in-place").mouseenter(function(){
+        $("#move-in-to-place").css({"top": 0});
+});
+</script>
 <script>
     $('#programme_colleft').hover(function () {
         jQuery(this).animate({

@@ -189,32 +189,23 @@ a:active {
 }
 
 #stay-in-place {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-}
-#move-in-to-place {
-  position: absolute;
-  top : 0;
-  bottom: 100%;
-  height : 100%;
-  width : 100%;
-  padding: 0;
-  z-index:-1;
+  position: relative;
+  top: 0;
+  z-index: 1;
+  cursor:pointer;
 }
 .box {
-  position: relative;
-  height:750px;
+  height:100%;
   overflow:hidden;
 }
-.box:hover #move-in-to-place {
-  -webkit-transition : top 1s;
-  transition: top 1s;
-  z-index:50;
-  top: 250px;
-  padding:0;
-  width:100%;
-  height:100%;
+#move-in-to-place{
+position: relative;
+top: -500px;
+z-index: -1;
+-webkit-transition: top 1s;
+-moz-transition: top 1s;
+-o-transition: top 1s;
+transition: top 1s;
 }
 
 .flex-container {
