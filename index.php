@@ -153,13 +153,13 @@
     <div id="stay-in-place" class="row text-center">
         <div style="height: 250px;" class="col-md-4 col-md-offset-2 darkgrey_background">
             <div>
-                <h3 class="chubby">Contacts</h3>
+                <h3 class="chubby orange">Contacts</h3>
                 <h5 class="din margin_top">122 avenue du Général Leclerc <br/>Boulogne-Billancourt<br/><br/>01 46 44 24 66
                     <br/><br/> contact@aneo.fr</h5>
             </div>
         </div>
         <div style="height: 250px;" class="col-md-4 darkgrey_background">
-            <h3 class="chubby">Retrouvez nous sur</h3>
+            <h3 class="chubby orange">Retrouvez nous sur</h3>
             <h5 class="din margin_top"><a href="http://www.aneo.eu">www.aneo.eu</a></h5>
             <a href="https://twitter.com/aneoconseil?lang=fr" target="_blank"><img class="icone" src="img/elements/TWITTER.png"/></a>
             <a href="https://www.facebook.com/ANEOConseil/?fref=ts" target="_blank"><img class="icone" src="img/elements/FACEBOOK.png"/></a>
@@ -167,9 +167,9 @@
             <a href="http://fr.viadeo.com/fr/company/aneo" target="_blank"><img class="icone" src="img/elements/VIADEO.png"/></a>
         </div>
     </div>
-    <div id="move-in-to-place" class="row">
+    <div i class="row">
         <div class="col-md-8 col-md-offset-2">
-            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1jBc9B1mOL_YvPgEwpm4SD0dkKhk" style="padding:0px!important;" width="100%" height="500"></iframe>
+            <iframe id="move-in-to-place" src="https://www.google.com/maps/d/u/0/embed?mid=1jBc9B1mOL_YvPgEwpm4SD0dkKhk" style="padding:0px!important;" width="100%" height="500"></iframe>
         </div>
 
     </div>
@@ -189,6 +189,12 @@
 <script>
 $("#stay-in-place").mouseenter(function(){
         $("#move-in-to-place").css({"top": 0});
+        $('#move-in-to-place')
+        .delay(1000)
+        .queue(function (next) {
+          $(this).css({"z-index": 1});
+          next();
+        });
 });
 </script>
 <script>
