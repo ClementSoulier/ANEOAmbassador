@@ -10,29 +10,31 @@
 </head>
 <body>
 <div class="container">
-    <div class="row">
+    <div id="introduction" class="row">
         <!-- Header Row -->
         <div class="col-md-12 text-center">
             <img id="ambassador_logo" src="img/elements/AMABSSADOR_LOGO.png"/>
-            <h3 class="chubby">ORANGE IS THE NEW GAME</h3>
+            <h1 class="chubby">ORANGE IS THE NEW GAME</h3>
+
         </div>
     </div>
-    <br/><br/><br/><br/>
-    <div class="row">
+
+<hr style="width:320px">
+
+    <div id="introduction_ambassador" class="row">
         <!-- Header Row -->
         <div class="col-md-12 text-center">
             <h2 style="margin:0!Important;" class="chubby">TU SOUHAITES DEVENIR</h2>
-            <h1 style="margin:-10!Important;" class="chubby orange">AMBASSADOR ANEO ?</h1>
+            <h2 style="margin:-10!Important;" class="chubby orange">AMBASSADOR ANEO ?</h1>
         </div>
     </div>
     <br/><br/><br/>
     <div class="row">
         <!-- Vidéo Row -->
-        <div class="col-md-12 text-center">
-            <div class="video-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/3Ej1xATIiuA" frameborder="0"
-                    allowfullscreen></iframe>
-            </div>
+        <div class="col-md-8 col-md-offset-2 text-center col-sm-12">
+          <div class="video-container">
+            <iframe  src="https://www.youtube.com/embed/3Ej1xATIiuA" frameborder="0" allowfullscreen></iframe>
+          </div>
         </div>
     </div>
     <br/><br/><br/><br/><br/>
@@ -42,31 +44,32 @@
         </div>
     </div>
     <br/><br/>
-    <div class="darkgrey_background">
+    <div>
         <div class="row">
             <!-- Programme Row -->
             <div class="col-md-4 col-md-offset-2">
-                <img class="img-responsive" src="img/elements/ANEO_LOGO-01.png" alt="ANEO"/>
+                <img class="img-responsive" style="margin-top: 4px;" src="img/elements/ANEO_LOGO-01.png" alt="ANEO"/>
             </div>
             <div class="col-md-4">
-                <h5 class="din orange_aneo"><strong>ANEO est un cabinet de conseil en Organisation et en
-                        Technologies.</strong></h5>
-                <div class="margin_top">
-                    <h5 class="din grey margin_left">Nous œuvrons pour un transition digitale positive pour l'humain
-                        !</h5>
-                    <h5 class="din grey margin_left">Notre approche consiste à transformer avec nos clients leurs
-                        intentions stratégiques en réalités quotidiennes et opérationnelles.</h5>
-                    <h5 class="din grey margin_left">Une seule méthode : HUMAN CENTRIC</h5>
-                    <h5 class="din grey margin_left">Convaincus que l'intélligence collective et l'épanouissement de nos
-                        collaborateurs favorisent la créativité et l'innovation, nous avons collectivement fait le choix d'une
-                        organisation à plat</h5>
-                </div>
-            </div>
+                            <h3 class="din orange_aneo"><strong>ANEO est un cabinet
+                            <br/>de conseil en Organisation
+                            <br/> et en Technologies.</strong></h3>
+                            <div class="margin_top">
+                                <h5 class="din margin_left">Nous œuvrons pour un transition digitale positive pour l'humain
+                                    !</h5>
+                                <h5 class="din margin_left">Notre approche consiste à transformer avec nos clients leurs
+                                    intentions stratégiques en réalités quotidiennes et opérationnelles.</h5>
+                                <h5 class="din margin_left">Une seule méthode : HUMAN CENTRIC</h5>
+                                <h5 class="din margin_left">Convaincus que l'intélligence collective et l'épanouissement de nos
+                                    collaborateurs favorisent la créativité et l'innovation, nous avons collectivement fait le choix d'une
+                                    organisation à plat</h5>
+                            </div>
+                        </div>
             <div class="col-md-7 col-md-offset-2">
-                <hr/>
+                <hr style="    margin-left: 27px;width: 48%;background-color: #EE7003!important;"/>
             </div>
             <div class="col-md-2">
-                <h5 class="din margin_left"><a href="http://aneo.eu/" target="_blank">Site ANEO</a></h5>
+                <h5  class="din margin_left"><a id="lien-aneo" href="http://aneo.eu/" target="_blank">Voir site ANEO</a></h5>
             </div>
         </div>
         <div class="row">
@@ -96,7 +99,7 @@
     <div class="margin_top">
         <div class="row text-center">
             <!-- Programme Row -->
-            <div style="height: 550px;background-color:grey;" id="programme_colleft" class="col-md-4 col-md-offset-2">
+            <div style="height: 550px;" id="programme_colleft" class="col-md-4 col-md-offset-2">
                 <div class="arrow_box">
                     <h4 class="chubby">Ambassador, c'est quoi ?</h4>
                     <h5 class="din margin_top">Tout au long de l'année tu auras pour mission de développer la marque
@@ -108,7 +111,7 @@
                     <h5 class="din margin_top">Tous les étudiants motivés dans une association étudiante.</h5>
                 </div>
             </div>
-            <div style="height: 550px;background-color:lightgrey;" id="programme_colright" class="col-md-4">
+            <div style="height: 550px;" id="programme_colright" class="col-md-4">
                 <h4 class="chubby">Tu auras droit a quelques privileges</h4>
                 <h5 class="din margin_top">L'opportunité de participer à un séminaire d'intégration pour les ambassadeurs
                     2017.</h5>
@@ -123,34 +126,34 @@
     <br/><br/><br/><br/><br/>
     <div class="row">
         <div class="col-md-12 text-center">
-            <h1 class="chubby">Inscris-toi</h1>
+            <h1 class="chubby"><p>Pour <br/> participer</p></h1>
         </div>
     </div>
-    <br/><br/><br/>
+    <br/><br/>
     <div class="row text-center">
         <div class="flex-container grand">
             <div id="centrerond" class="circle_button flex-item petit"></div>
             <img class="turn-arround-left flex-item moyen" src="img/elements/BARRE_CONTOUR_CERCLE.png"/>
             <img class="turn-arround flex-item grand" src="img/elements/BARRE_GRANDE_CONTOUR_CERCLE.png"/>
-            <a class="chubby flex-item petit" style="margin-top:53px!important;"><h5><p>Pour <br/> participer</p></h5></a>
+            <a class="chubby flex-item petit" style="margin-top:62px!important;"><h5>Inscris-toi</h5></a>
         </div>
     </div>
-    <div class="row">
+    <div style="margin-top:40px;" class="row">
         <div class="col-md-12 text-center">
-            <h5 class="din">Envoie ta candidature à</h5>
+            <h4 class="din">Envoie ta candidature à</h4>
             <h4 class="din">ambassador@aneo.fr</h4>
-            <h5 class="din">Avant le 31 Janvier 2017.</h5>
+            <h4 class="din">Avant le 31 Janvier 2017.</h4>
         </div>
     </div>
     <br/><br/><br/><br/><br/>
-    <div class="row">
+    <div id="stay-in-place" class="row">
         <div class="col-md-12 text-center">
             <h1 class="chubby">Points Ambassadeurs</h1>
         </div>
     </div>
     <br/><br/><br/>
-    <div  class="row box">
-    <div id="stay-in-place" class="row text-center">
+    <div class="row box">
+    <div class="row text-center">
         <div style="height: 250px;" class="col-md-4 col-md-offset-2 darkgrey_background">
             <div>
                 <h3 class="chubby orange">Contacts</h3>
@@ -167,8 +170,8 @@
             <a href="http://fr.viadeo.com/fr/company/aneo" target="_blank"><img class="icone" src="img/elements/VIADEO.png"/></a>
         </div>
     </div>
-    <div i class="row">
-        <div class="col-md-8 col-md-offset-2">
+    <div class="row">
+        <div style="padding: 0;" class="col-md-8 col-md-offset-2">
             <iframe id="move-in-to-place" src="https://www.google.com/maps/d/u/0/embed?mid=1jBc9B1mOL_YvPgEwpm4SD0dkKhk" style="padding:0px!important;" width="100%" height="500"></iframe>
         </div>
 
@@ -188,11 +191,11 @@
 </html>
 <script>
 $("#stay-in-place").mouseenter(function(){
-        $("#move-in-to-place").css({"top": 0});
+        $("#move-in-to-place").css({"top": -50});
         $('#move-in-to-place')
         .delay(1000)
         .queue(function (next) {
-          $(this).css({"z-index": 1});
+          $(this).css({"z-index": -1});
           next();
         });
 });
