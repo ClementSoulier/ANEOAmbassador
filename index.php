@@ -146,7 +146,8 @@
         </div>
     </div>
     <br/><br/><br/><br/><br/>
-    <div id="stay-in-place" class="row">
+    <div id="stay-in-place">
+    <div class="row">
         <div class="col-md-12 text-center">
             <h1 class="chubby">Points Ambassadeurs</h1>
         </div>
@@ -177,6 +178,7 @@
 
     </div>
   </div>
+</div>
     <br/><br/><br/><br/><br/><br/>
     <div class="row">
         <div class="col-md-2 col-md-offset-5 text-center">
