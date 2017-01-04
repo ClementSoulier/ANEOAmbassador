@@ -109,17 +109,104 @@ a:active {
     width: 100%;
     height: 100%;
 }
+
 .fullscreen{
-  min-height:100%!important;
+  min-height:100%;
 }
-#introduction h1{
+
+@media screen and (max-width: 780px)
+{
+  .fullscreen {
+    height: auto !important;
+    min-height: 0;
+  }
+
+  .img-responsive{
+    width:50%;
+    margin-left: 25%;
+  }
+  #two h2.chubby.orange{
+    color:white!important;
+  }
+  #two {
+    margin-bottom:30px;
+  }
+  #ambassador_logo{
+  width: 47%!important;
+      margin-top: 50px!important;
+  }
+  #three h3{
+    margin-top: 37px;
+    margin-left: 38px;
+    font-size: 23px!important;
+  }
+  #three hr{
+    width: 100%!important;
+    margin-left: 0!important;
+  }
+  #three #titre-lien-aneo{
+    margin: 0;
+    text-align: center;
+  }
+  #three{
+    margin-bottom: 30px;
+  }
+  #four h1{
+    margin-bottom: 20px!important;
+  }
+  #four h4, #four h5{
+
+  }
+  #four #programme_colleft, #four #programme_colright{
+    background-color: #EC9306;
+  }
+  #four #programme_colright{
+    height: 450px!important;
+  }
+  #four #programme_colleft:hover, #four #programme_colright:hover{
+    background-color: #EC9306;
+  }
+  #six h1{
+    margin-top: 50px;
+    margin-bottom: 46px;
+  }
+  #six #mobile_remonter{
+    margin-top: -50px;
+  }
+  .icone{
+    margin: 16px!important;
+height: 25px!important;
+  }
+  h1.chubby{
+    font-size:30px!important;
+  }
+  #move-in-to-place{
+    top: -50px;
+  }
+
+}
+@media screen and (max-width: 320px){
+  #four #programme_colleft{
+      height: 650px!important;
+  }
+  #four #programme_colright{
+    height:500px!important;
+  }
+}
+#one h1{
   font-size: 40px!important;
   margin-bottom: 14px!important;
 }
 
-#introduction_ambassador h2{
+#two h2{
   font-size:35px:!important;
-  Line-Height: 39pt;
+}
+#two h2.chubby{
+    margin-bottom: 0px;
+}
+#two h2.chubby.orange{
+  margin-top: 0;
+    margin-bottom: 35px;
 }
 #lien-aneo{
     color:white;
@@ -127,6 +214,9 @@ a:active {
     animation: example 2s infinite;
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
+}
+#six h1{
+  margin-bottom:30px;
 }
 
 /* Safari 4.0 - 8.0 */
