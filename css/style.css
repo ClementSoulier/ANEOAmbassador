@@ -1,3 +1,4 @@
+/*** FONTS***/
 @font-face {
     font-family: 'Chubby-Regular';
     src: url('../fonts/Chubby-Regular.eot');
@@ -31,7 +32,7 @@
         -webkit-transform: rotate(-360deg);
     }
 }
-
+/*** balise ***/
 body{
     background-image:url("../img/background/FOND03.png");
     background-color: #303030!important
@@ -99,6 +100,8 @@ a:active {
     color: white;
 }
 
+
+/*** class et id ***/
 .video-container iframe, .video-container object, .video-container embed {
     position: absolute;
     top: 0;
