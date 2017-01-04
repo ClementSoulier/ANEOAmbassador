@@ -106,12 +106,8 @@ a:active {
     width: 100%;
     height: 100%;
 }
-#fullpage{
-  width:100%;
-  height:100%;
-  overflow: hidden;
-  top : 0;
-  left:0;
+.fullscreen{
+  min-height:100%!important;
 }
 #introduction h1{
   font-size: 40px!important;
